@@ -1,0 +1,19 @@
+// How does reduce differ from forEach in terms of return value? Explain with examples.
+
+// reduce is used to reduce the array into a single value and returns it, but when we use forEach it will work similar but forEach
+// will not return new array or value
+
+/* 
+
+ex : let arr = [1, 2, 3, 4, 5];
+
+let output = arr.reduce((acc, ele) => {
+        return acc + ele;
+    }, 0)
+
+let sum = 0;
+arr.forEach((ele) =>{
+        return sum = sum + ele;
+    })
+
+*/

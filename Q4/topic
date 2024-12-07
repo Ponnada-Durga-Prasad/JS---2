@@ -1,0 +1,4 @@
+How can you use localeCompare for sorting strings? Write an example.
+
+localeCompare is used to compare two strings in sorting order, if the two strings are equal then it returns 0, if the first string comes after second string
+it returns 1, if the first string comes before the second string in the sort order it returns -1.

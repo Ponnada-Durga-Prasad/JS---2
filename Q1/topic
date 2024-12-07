@@ -1,0 +1,5 @@
+How can we use async/await with Promises to simplify asynchronous code? Write an example
+
+
+when we use async await with promises it becomes very useful, because even promises syntax is large compared to async/await, but when we combine them, it will reduce the 
+the code like instead of using .then in promises we can use try catch block

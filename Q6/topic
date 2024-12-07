@@ -1,0 +1,2 @@
+How can bind be used to ensure a method retains its original this value when passed as a callback? Write an example where you solve this issue.
+

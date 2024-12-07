@@ -1,0 +1,10 @@
+How do bind, call, and apply manipulate the this context? Write an example.
+
+call is basically used to link a function of one object to work on another particular object, but we need to make sure that all the availble parameters
+in the the function linked should be present in the another object we are willing to link. call do't create a new function like bind, and it is executed immediatedly.
+
+bind
+
+bind is used to create a this to particular object on another another method of another object, but this creates new funtion and it is not invoked until it is called.
+
+apply is similar to call, but here the arguments are passed in the array form, but in call it is passed separately.
